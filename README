@@ -1,0 +1,31 @@
+
+Commands to run - 
+    
+hw5 tablecheck -t=tablefile
+hw5 modprod -p1=poly1 -p2=poly2
+hw5 keyexpand -k=key -t=tablefile
+hw5 encrypt -k=key -t=tablefile [file]
+hw5 decrypt -k=key -t=tablefile [file]
+hw5 inverse -p=poly
+
+
+Files in the zip - 
+
+main.c - main file with command line parsing.
+encrypt.c - contains encrypt, decrypt and inverse functions.
+tablecheck.c - does required check on table file given.
+modprod.c - computes mod product.
+hw5.h - header file.
+Makefile - used for make.
+
+
+
+Files- 
+main.c       : contains main program.
+functions.h  : contains function declarations.
+tablecheck.c : checks the integrity of tablefile.
+modprod.c    : computes mod product.
+encrypt.c    : performs the encryption.
+decrypt.c    : performs the decryption.
+inverse.c    : performs the inverse operation.
+Makefile   
